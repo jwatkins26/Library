@@ -66,6 +66,7 @@ body {
 }
 
 /* Form */
+
 .popup {
     display: none;
     position:fixed;
@@ -79,7 +80,11 @@ body {
     background-color: #E1EEDD;
     border: 1px solid #183A1D;
     border-radius: 12px;
-    justify-content: center;
+}
+
+.form-container h1 {
+    text-align: center;
+    color:#183A1D;
 }
 
 .form-container input[type=text], .form-container input[type=number]{
@@ -88,4 +93,38 @@ body {
     margin: 5px 0 22px 0;
     border: none;
     background: #FEFBE9;
+}
+
+/* Buttons */
+.cancel {
+    border: none;
+    border-radius: 12px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.cancel:hover {
+    background-color: white;
+    color: red;
+    cursor: pointer;
+    transition-duration: .3s;
+    
+}
+
+.submit {
+    border: none;
+    background-color: #F0A04B;
+    font-size: 1.5rem;
+    color:#183A1D;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.submit:hover {
+    background-color: #183A1D;
+    color: #F0A04B;
+    cursor: pointer;
+    transition-duration: .3s;
 }
