@@ -65,15 +65,7 @@ body {
     border-radius: 10px;
 }
 
-/* Main */
-.main {
-    display: grid;
-    grid-template-columns: repeat(autofill, 1fr);
-}
 
-.holder{
-    grid-column: 1fr;
-}
 
 /* Form */
 
