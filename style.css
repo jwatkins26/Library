@@ -1,0 +1,66 @@
+/*
+    #FEFBE9
+    #E1EEDD
+    #F0A04B
+    #183A1D
+
+*/
+
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FEFBE9;
+}
+
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    align-items: center;
+    background-color: #E1EEDD;
+    border-bottom: 4px solid #183A1D;
+}
+
+.logo {
+    font-size: 1.2rem;
+    color: #183A1D;
+    padding: .5rem;
+    grid-column: 1;
+}
+
+.space {
+    grid-column: 2;
+
+}
+
+.button{
+    display: grid;
+    grid-column: 3;
+    justify-content: center;
+}
+
+.add:hover {
+    background-color: #183A1D;
+    color:#F0A04B;
+    border: 2px solid #F0A04B;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+
+.add {
+    border: 2px solid #183A1D;
+    background-color: #F0A04B;
+    font-size: 1.5rem;
+    color:#183A1D;
+    padding: 1rem;
+    border-radius: 10px;
+}
