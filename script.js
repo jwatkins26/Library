@@ -21,8 +21,6 @@ function Book(title, author, pages, read) {
 }
 
 // Add Book
-
-
 function addBook() {
     let title = document.querySelector('#title').value;
     let author = document.querySelector('#author').value;
