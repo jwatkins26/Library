@@ -1,13 +1,16 @@
 let newBook = document.querySelector('#newBook');
 let cancel = document.querySelector('.cancel');
+let form = document.querySelector('.popup');
 
 newBook.addEventListener('click', function() {
     document.getElementById('addForm').style.display = 'block';
 })
 
-cancel.addEventListener('click', function() {
-    document.getElementById('addForm').style.display = 'none';
-})
+ cancel.addEventListener('click', function() {
+     document.getElementById('addForm').style.display = 'none';
+     event.preventDefault();
+ })
+
 
 // Library
 let myLibrary = []
