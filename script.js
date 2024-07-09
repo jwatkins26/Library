@@ -6,8 +6,12 @@ newBook.addEventListener('click', function() {
     document.getElementById('addForm').style.display = 'block';
 })
 
- cancel.addEventListener('click', function() {
+ cancel.addEventListener('click', function(event) {
      document.getElementById('addForm').style.display = 'none';
+     document.querySelector('#title').value = '';
+     document.querySelector('#author').value = '';
+     document.querySelector('#pages').value = '';
+    
      event.preventDefault();
  })
 
